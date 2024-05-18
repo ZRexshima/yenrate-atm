@@ -8,7 +8,7 @@ yen_rate = 160
 
 
 def main():
-    converted = convert(max_usd_withdrawal)
+    converted = convert(max_usd_withdrawal, yen_rate)
     print(f"You can withdraw up to {converted:,} Yen")
 
 
